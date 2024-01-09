@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./image/sun-rays-falling-deep-into-600nw-1721181988.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    position: absolute;
+    height: 80vh;
+    width: 400px;
+    /* background-color: rgb(128, 126, 0); */
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    backdrop-filter: blur(2px);
+    border: 1px solid white;
+    
+}
+form{
+margin-top: 30vh;
+}
+form label{
+    color: white;
+    margin-left: 10px;
+    font-size: 12px;
+}
+form input{
+    height: 6vh;
+    width: 50vh;
+    padding: 2px 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    margin-top: 5px;
+
+}
+form i{
+ position: absolute;
+ margin-top: 17px;
+ margin-left: 20px;
+}
+form p{
+    margin-left: 0px;
+    margin-left: 210px;
+    font-size: 12px;
+}
+form button{
+    margin-top: px;
+    width: 50vh;
+}
+input::placeholder{
+    font-size: 12px;
+}
+.header{
+    position: absolute;
+    align-items: start;
+    text-transform: uppercase; 
+    color: #0df287;
+    z-index: 1000;
+}
+.head h1{
+    font-weight: 800;
+
+}
+form{
+    border-top: 5px solid rgb(0, 0, 0);
+}
+.simplelion{
+    position: absolute;
+    margin-top: 100px;
+}
+.goinglion{
+    position: absolute;
+    margin-top: 70px;
+    display: none;
+}
+@media (max-width: 450px){
+    .login{
+        width: 300px;
+    }
+    form input{
+        height: 6vh;
+        width: 40vh;
+        padding: 2px 40px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 20px;
+        outline: none;
+        color: white;
+        margin-top: 5px;
+    }
+    form button{
+        margin-top: px;
+        width: 40vh;
+    }
+
+    
+   
+}
